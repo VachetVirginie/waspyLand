@@ -1,0 +1,44 @@
+body h1,
+body p {
+    color: #fff;
+}
+
+body .cursor {
+    pointer-events: none;
+}
+
+body .cursor__ball {
+    position: fixed;
+    top: 0;
+    left: 0;
+    mix-blend-mode: difference;
+    z-index: 1000;
+}
+
+body .cursor__ball circle {
+    fill: #3C19FF;
+}
+
+body .left,
+body .right {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body .right {
+    background: #3C19FF;
+}
+
+body .right a {
+    border-bottom: 2px solid #000;
+}
+
+body .right h1,
+body .right p,
+body .right a {
+    color: #000;
+}
